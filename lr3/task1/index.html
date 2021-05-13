@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>lr3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container p-5">
+      <form d="user-form" autocomplete="off">
+        <h3 class="display-4"><b>Form</b></h3>
+        <input class="form-control" placeholder="name" onkeyup="checkName(this)">
+        <input class="form-control" name="secName" placeholder="second name" onkeyup="checkName(this)">
+        <input class="form-control" name="adress" placeholder="street, house, city, country, post-index" onkeyup="checkAdress(this)">
+        <input class="form-control" name="mail" placeholder="email" onkeyup="checkMail(this)">
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
